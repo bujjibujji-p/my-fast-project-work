@@ -1,0 +1,43 @@
+   body{ font-family:Arial;
+    margin:0;
+}
+.navbar{
+    background-color: #333333;
+   padding: 10px; 
+}
+.navbar a{
+    color:white;
+    margin: 10px;
+    text-decoration: none;
+cursor: pointer;
+}
+.navbar{
+    background-color:orange;
+   padding: 5px;
+}
+.section{
+    display: block;
+    padding: 20px;
+}
+#home {
+    display: block;
+    text-align: center;
+}
+.login-box{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border:1px solid gray;
+    text-align:center;
+}
+input{
+    width:90%;
+    padding:8px;
+}
+button{
+    padding:8px 15px;
+    background-color:green;
+    color:white;
+    border:none;
+}
+

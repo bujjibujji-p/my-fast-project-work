@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+    <HTML>
+      <head>
+        <title>navigation with login</title>
+         <link rel="stylesheet"href="c.css">
+      </head> 
+      <body>
+        <div class="navbar">
+<a onclick="showSection('home')">Home</a>
+<a onclick="showSection('insert')">Insert</a>
+<a onclick="showSection('contact')">Contact</a>
+<a onclick="showSection('login')">Login</a>
+</div>
+
+<div id="home"class="section">
+<h1>Home page</h1>
+<p>welcome to website</p>
+</div>
+
+<div id="insert"class="section">
+<h1>Insert page</h1>
+<p>Insert content here</p>
+</div>
+
+<div id="contact"class="section">
+<h1>Contact page</h1>
+<p>Contact detalils</p>
+</div>
+<div id="login"class="section">
+<div class="login-box">
+<h2>Login</h2>
+
+<input type="text id="userid" placeholder="Enter user Id"><br><br>
+<input type="password" id="password" placeholder="enter password"><br><br>
+
+<button onclick="login()">submit</button>
+</div>
+</div>
+
+    <script src="js.js"> </script>
+      </body> 
+    </HTML>
